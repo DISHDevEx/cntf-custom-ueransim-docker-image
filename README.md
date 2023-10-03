@@ -69,7 +69,7 @@ Goal of each stage in the pipeline (refer to ".gitlab-ci.yml" for more details):
 * "build" - builds the customer UERANSIM docker image and pushes it to an AWS ECR repository
 
 **Note:** *This pipeline gives you the option to deploy your docker image(s) to either AWS ECR or Dockerhub. For this reason, the pipeline requires a manual approval for the option you desire. To do this, go to "Build" and select "Pipelines". Click the grey button which says "Skipped" and press the play button next to the option you desire.*
-## Project Structure:
+## Project Structure
 ```
 └── README.md
 |
